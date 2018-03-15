@@ -79,7 +79,7 @@ namespace KeenMate.FluentlySharePoint_Nlog
 
 		public void Error(Exception ex, string message)
 		{
-			logMessage(LogLevel.Debug, message, ex);
+			logMessage(LogLevel.Error, message, ex);
 		}
 
 		public void Fatal(string message)
