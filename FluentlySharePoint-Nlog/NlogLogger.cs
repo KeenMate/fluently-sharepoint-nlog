@@ -11,14 +11,9 @@ namespace KeenMate.FluentlySharePoint_Nlog
 	public class NlogLogger : ILogger
 	{
 		private NLog.ILogger logger = LogManager.GetCurrentClassLogger(); // not ideal, we probably lose point of log origin
-		public Guid CorrelationId { get; set; }
-
-		public Func<Guid, string, string> MessageFormat { get; set; } = (correlationId, message) => $"{correlationId}: {message}";
 
 		private void logMessage(LogLevel level, string message, Exception ex = null)
 		{
-			message = MessageFormat(CorrelationId, message);
-
 			if (level == LogLevel.Debug)
 				logger.Debug(message);
 			else if (level == LogLevel.Error)
