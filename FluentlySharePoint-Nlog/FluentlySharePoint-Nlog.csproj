@@ -17,11 +17,12 @@
     <PackageTags>sharepoint csom fluently nlog logger</PackageTags>
     <AssemblyVersion>0.2.0.0</AssemblyVersion>
     <FileVersion>0.2.0.0</FileVersion>
+    <PackageReleaseNotes>NLog logger reworked, correlationId is now part of FluentlySharePoint</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="KeenMate.FluentlySharePoint" Version="0.3.0" />
-    <PackageReference Include="NLog" Version="4.4.12" />
+    <PackageReference Include="KeenMate.FluentlySharePoint" Version="0.4.1" />
+    <PackageReference Include="NLog" Version="4.5.3" />
   </ItemGroup>
 
 </Project>
