@@ -4,7 +4,7 @@
     <TargetFrameworks>net40;net45</TargetFrameworks>
     <RootNamespace>KeenMate.FluentlySharePoint-Nlog</RootNamespace>
     <PackageId>KeenMate.FluentlySharePoint.NlogLogger</PackageId>
-    <Version>0.2</Version>
+    <Version>0.3</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Product>FluentlySharePoint</Product>
     <Authors>kmBenjaminHorne</Authors>
@@ -15,8 +15,8 @@
     <PackageProjectUrl>https://github.com/KeenMate/fluently-sharepoint-nlog</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KeenMate/fluently-sharepoint-nlog</RepositoryUrl>
     <PackageTags>sharepoint csom fluently nlog logger</PackageTags>
-    <AssemblyVersion>0.2.0.0</AssemblyVersion>
-    <FileVersion>0.2.0.0</FileVersion>
+    <AssemblyVersion>0.3.0.0</AssemblyVersion>
+    <FileVersion>0.3.0.0</FileVersion>
     <PackageReleaseNotes>NLog logger reworked, correlationId is now part of FluentlySharePoint</PackageReleaseNotes>
   </PropertyGroup>
 
